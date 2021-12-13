@@ -1,0 +1,19 @@
+.pics__main {
+    margin: 20px 50px;
+    display: flex;
+}
+
+.pics__row {
+    width: 25%;
+    margin: 3px 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.pic>img:hover {
+    cursor:pointer;
+}

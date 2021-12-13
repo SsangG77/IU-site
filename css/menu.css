@@ -1,0 +1,36 @@
+.menu-bar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    padding: 0 30px;
+    background-color: white;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.menu-bar__ul {
+    margin-left: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    width:90%;
+    box-sizing: border-box;
+}
+
+.menu-bar__list {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: center;
+    color:#F781F3;
+    font-weight: 650;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-bar__list:hover {
+    background-color: #F781F3;
+    color: white;
+}

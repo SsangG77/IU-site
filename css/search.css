@@ -1,0 +1,33 @@
+.searchbar {
+	display: flex;
+	margin-right: 50px;
+	border-radius: 30px;
+}
+
+.search {
+	display: flex;
+}
+
+.search__input {
+	width: 250px;
+	height: 30px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.search__button {
+	display: flex;
+	height: inherit;
+}
+
+button {
+	background-color: #8904B1;
+	border: 1px solid rgba(0, 0, 0, 0);
+	width:40px;
+	border-top-right-radius: 20%;
+	border-bottom-right-radius: 20%;
+}
+
+.fa-search {
+	color: white;
+}

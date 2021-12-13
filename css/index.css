@@ -10,38 +10,6 @@
     font-weight: 700;
 }
 
-.menu-bar {
-    padding: 0 30px;
-    background-color: white;
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.menu-bar__ul {
-    margin-left: 20px;
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    padding: 0;
-    width:90%;
-    box-sizing: border-box;
-}
-
-.menu-bar__list {
-    display: flex;
-    align-items: center;
-    width: 25%;
-    justify-content: center;
-    color:#F781F3;
-    font-weight: 650;
-    text-decoration: none;
-}
-
-.menu-bar__list:hover {
-    background-color: #F781F3;
-    color: white;
-}
-
 .homepage__area__group {
     display: flex;
 }
@@ -61,10 +29,12 @@ body h2 {
     display: flex;
     font-size:40px;
     margin-bottom: 15px;
+    
     padding-bottom: 5px;
     color: white;
     font-weight: 600;
     border-bottom: 3px solid #B404AE;
+    font-weight: 800;
     
 }
 

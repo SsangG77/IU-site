@@ -22,3 +22,44 @@ time, mark, audio, video {
 html {
     background-color: #F6CEF5;
 }
+
+.header {
+	margin-top: 58px;
+}
+
+.nav {
+	box-sizing: border-box;
+	width: 95%;
+	bottom: 90px;
+	display: flex;
+	justify-content: space-between;
+	margin-left:40px;
+	position: fixed;
+}
+.pagenumber_group {
+	display: flex;
+	left: 50px;
+	width: 250px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+.pagenumber {
+	width: 15px;
+	height: 15px;
+	font-size: 13px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	border: 0.3px solid rgba(198,43,177,0.5);
+}
+
+.pagenumber:hover {
+	color:white;
+	background-color: rgba(155,31,138,1);
+}
+
+.now__page {
+	border-bottom: 1px solid #F781F3;
+	padding: 0 5px;
+}
