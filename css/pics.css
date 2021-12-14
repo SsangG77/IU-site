@@ -17,3 +17,43 @@ img {
 .pic>img:hover {
     cursor:pointer;
 }
+
+.pic {
+    position: relative;
+}
+
+.pic__title {
+    position:absolute;
+    bottom:5px;
+    height: 100px;
+    background-color: green;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    opacity: 0;
+    background: linear-gradient(transparent, black);
+}
+
+.pic__title__text, .pic__title__writer {
+    position: absolute;
+    color: white;
+}
+
+.pic__title__text {
+    bottom: 27px;
+    left:10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pic__title__writer {
+    right: 14px;
+    bottom: 15px;
+    font-size: 14px;
+}
+
+.pic:hover .pic__title {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
