@@ -8,7 +8,7 @@
     margin: 3px 5px;
 }
 
-img {
+.pic>img {
     max-width: 100%;
     height: auto;
     border-radius: 20px;

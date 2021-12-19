@@ -1,0 +1,45 @@
+.videos__main {
+    margin: 0 30px;
+    box-sizing: border-box;
+}
+
+.video__row {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+.video {
+    box-sizing: border-box;
+    margin: 5px 10px 30px;
+    width: 25%;
+    height: auto;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.video__time {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 9px;
+    right: 5px;
+    padding: 2px;
+}
+
+.video__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 6px 0;
+}
+
+.video__info {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.thumbnail>img {
+    width: 100%;
+}

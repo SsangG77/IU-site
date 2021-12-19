@@ -20,7 +20,12 @@ time, mark, audio, video {
 }
 
 html {
-    background-color: #F6CEF5;
+    background-color: #F8EFFB;
+}
+
+a {
+	text-decoration:none;
+	color:black;
 }
 
 .header {

@@ -7,6 +7,19 @@
     background-color: white;
     display: flex;
     margin-bottom: 20px;
+    border-bottom: 5px solid #A901DB;
+}
+
+.title {
+    font-size: 40px;
+    margin: 0;
+    width: 10%;
+}
+
+.title a {
+    text-decoration: none;
+    color: #DF01D7;
+    font-weight: 700;
 }
 
 .menu-bar__ul {
@@ -15,7 +28,7 @@
     list-style: none;
     justify-content: space-between;
     padding: 0;
-    width:90%;
+    width:75%;
     box-sizing: border-box;
 }
 
@@ -33,4 +46,20 @@
 .menu-bar__list:hover {
     background-color: #F781F3;
     color: white;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.login__text{
+    font-size: 17px;
+    color: #F781F3;
+}
+
+.fa-toggle-on {
+    color: #F781F3;
 }

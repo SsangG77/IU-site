@@ -20,7 +20,7 @@
 	height: inherit;
 }
 
-button {
+.search__button>button {
 	background-color: #8904B1;
 	border: 1px solid rgba(0, 0, 0, 0);
 	width:40px;
