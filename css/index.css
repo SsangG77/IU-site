@@ -44,6 +44,7 @@ body h2 {
 .homepage__news__area__group {
     display: flex;
     margin-top: 20px;
+    justify-content: space-around;
 }
 
 .homepage__news__area__group i {
@@ -70,4 +71,8 @@ body h2 {
 .imgs img {
     width: 640px;
     height: 842px;
+}
+
+.news__link {
+    display: block;
 }

@@ -1,5 +1,5 @@
 .boardpage {
-    margin: 20px 50px;
+    margin: var(--default-margin);
 }
 
 .header {

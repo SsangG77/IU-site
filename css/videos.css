@@ -1,5 +1,5 @@
 .videos__main {
-    margin: 0 30px;
+    margin: var(--default-margin);
     box-sizing: border-box;
 }
 
