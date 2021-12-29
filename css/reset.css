@@ -33,14 +33,28 @@ a {
 }
 
 .nav {
+	background-color: #F8EFFB;
 	box-sizing: border-box;
 	width: 95%;
-	bottom: 90px;
+	position: absolute;
+	bottom: 40px;
 	display: flex;
 	justify-content: space-between;
 	margin-left:40px;
-	position: fixed;
+	
 }
+
+.news_nav {
+	background-color: #F8EFFB;
+	box-sizing: border-box;
+	width: 95%;
+	margin-bottom: 50px;
+	bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin-left:40px;
+}
+
 .pagenumber_group {
 	display: flex;
 	left: 50px;
